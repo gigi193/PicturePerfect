@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1>COMMISSION YOUR NATURE PAINTING</h1>
+    <ul id="nav">
+		<li><a href="index.html">Home</a></li>
+        <li><a href="commission.html">Commission a Nature Painting</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+		<li><a href="about.html">About Gergana</a></li>
+	</ul>
+
+    <h2>Customize your hand painted nature painting from your photos! </h2>
+    <h3>
+        Choose from the options below:
+    </h3>
+
+    <form>
+        <div class="Options">
+            <div class="Size">
+                <label>Choose from the following canvas sizes:</label>
+                <select name="size" id="sizes">
+                    <option value="5x7">5x7</option>
+                    <option value="8x10">8x10</option>
+                    <option value="11x14">11x14</option>
+                    <option value="12x16">12x16</option>
+                    <option value="16x20">16x20</option>
+                    <option value="18x24">18x24</option>
+                </select>
+                </div>
+                <div class="Material">
+                <label>Choose from the following art materials</label>
+                <select name="material" id="materials">
+                    <option value="acrylic">Acrylic paint</option>
+                    <option value="oil">Oil paint</option>
+                    <option value="pastel">Pastel</option>
+                    <option value="chalk">chalk</option>
+                    <option value="pencil">Graphic pencil</option>
+                    <option value="markers">Brush markers</option>
+                </select>
+                <label for="organization">Enter your choice of a non-profit 
+                    organization. Enter "No Preference" and we will choose an organization for you.</label>
+                    <textarea id="organization" name="organization"></textarea>
+                    <br>
+                    <button type="Submit" class="Submit">Submit!</button>
+                </div>
+        </div>
+    </form>
+    <section>
+        <h2>Subsribe Today!</h2>
+        <form>
+            <div class="Subscribe">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Enter name" id="name" name="name" required>
+
+                <label for="email">Email address:</label>
+                <input type="text" placeholder="Enter Email" id="email" name="email" required>
+
+                <label for="pswd"><b>Password:</b></label>
+                <input type="password" placeholder="Enter Password" id="pswd" name="pswd" required>
+
+                <label for="pswd_repeat"><b>Repeat Password:</b></label>
+                <input type="password" placeholder="Repeat Password" id="pswd_repeat" name="pswd_repeat" required>
+            
+                <button type="submit" class="Sub">Subscribe!</button>
+            </div>
+        </form>
+    </section>
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,269 @@
+html {
+    background-color:rgb(236, 232, 253);
+
+}
+
+div {
+    display:block;
+    position:relative;
+    width:auto;
+    height:auto;
+}
+
+div::after {
+    content:"";
+    background-image:url(IMG_4760.jpg);
+    opacity:0.2;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-repeat:repeat;
+    background-size:cover;
+    z-index:-1;
+    background-size:100%;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 40px;
+    border-radius: 15px;
+    border-color:paleturquoise;
+    border-style:solid;
+}
+
+h1 {
+    color:midnightblue;
+    text-align: center;
+    background-color:turquoise;
+    text-shadow:2px 2px white;
+}
+
+h2 {
+    color:midnightblue;
+    text-align: center;
+    background-color:turquoise;
+    text-shadow:2px 2px white;
+}
+
+h3 {
+    color:midnightblue;
+    text-align: center;
+    background-color:turquoise;
+    text-shadow:2px 2px white;
+}
+
+.button {
+    color:palegreen;
+    padding:40px;
+    background-color:orchid;
+
+}
+
+p {
+    color:midnightblue;
+    text-shadow:1px 1px white;
+}
+
+#nav {
+	list-style-type: none;
+	background-color:rgb(5, 134, 185);
+	padding: 8px;
+	border-color:teal;
+	border: 2px solid white; 
+	text-align: center;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-evenly;
+}
+
+
+#nav a {
+	color:slateblue;
+	text-decoration:none;
+	background-color:pink;
+	padding: 10px;
+	margin-left: -4px;
+	text-align:center;
+}
+
+#nav ul {
+	color:aliceblue;
+	display: flex;
+    justify-content: space-between;
+}
+
+#nav a:hover {
+	text-decoration:overline;
+	background-color:#FFF4F5;
+}
+
+#nav li {
+	display: inline-block;
+    padding: 10px;
+	
+}
+
+img {
+    border-color:palegreen;
+    border-width:10px;
+    border-style:solid;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.painting:hover {
+	transform:scale(1);
+	transition: 1s ease-in-out;
+}
+
+.row {
+    display:flex;
+}
+.column {
+    float:left;
+    width:50%;
+    padding:5px;
+}
+
+a {
+    font-weight: bold;
+      text-decoration: none;
+      color: #300102;
+  }
+  
+  a:link {
+      color:#43004B;
+      text-decoration:none;
+      font-weight:bold;
+      
+  }
+  
+  a:hover {
+      text-decoration: underline;
+      color: #DFEE5A;
+      font-weight:bold;
+      
+  }
+  
+  a:visited {
+      color:#0D0067;
+  }
+  
+  a:active {
+      background-color:#F9C9A5;
+  }
+
+ul {
+    color:midnightblue;
+    list-style-type: square;
+}
+
+ol {
+    color:midnightblue;
+}
+
+.Subscribe {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+    padding: 10px;
+    display: inline-block;
+    border:white 10px;
+    background:lightblue;
+    margin: 5px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+    background-color: plum;
+}
+
+input[type="text"], select {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Sub {
+    background-color:lightcoral;
+    color:white;
+    padding: 10px;
+    border:solid;
+    cursor:pointer;
+    opacity:0.8;
+    width:50%;
+    text-align:center;
+    display: inline-block;
+}
+
+.Submit {
+    background-color:lightcoral;
+    color:white;
+    padding: 10px;
+    border:solid;
+    cursor:pointer;
+    opacity:0.8;
+    width:50%;
+    text-align:center;
+    display: inline-block;
+}
+
+div.Sub {
+    display: block;
+    text-align: center;
+}
+
+.Sub:hover {
+    opacity: 1;
+}
+
+.Options {
+    position: relative;
+    display: block;
+    background-color:lightcoral;
+    color:white;
+    text-align:center;
+}
+
+/*select {
+    position:absolute;
+    background-color:lightblue;
+    padding: 10px;
+    display:block;
+}
+*/
+
+.Size {
+    background-color: paleturquoise;
+    padding: 20px;
+    color:black;
+    display:block;
+    overflow: hidden;
+}
+
+
+.Size-content {
+    position:absolute;
+    background-color:lightblue;
+    padding: 10px;
+    display:block;
+}
+
+.Material {
+    background-color: paleturquoise;
+    padding: 10px;
+    color:black;
+    display:block;
+}
+
+.Material-content {
+    position:absolute;
+    background-color:lightblue;
+    padding: 10px;
+}
