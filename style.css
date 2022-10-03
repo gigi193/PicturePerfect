@@ -105,9 +105,8 @@ p {
 
 
 #nav a {
-	color:slateblue;
+	color:rgb(205, 21, 21);
 	text-decoration:none;
-	background-color:pink;
 	padding: 10px;
 	margin-left: -4px;
 	text-align:center;
@@ -128,7 +127,7 @@ p {
 	display: inline-block;
     background-color: rgb(255, 164, 164);
     padding: 10px;
-    color:rgb(244, 31, 31);
+    color:rgb(205, 21, 21);
 	
 }
 
