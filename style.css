@@ -1,5 +1,5 @@
 html {
-    background-color:rgb(236, 232, 253);
+    background-color:rgb(255, 250, 250);
 
 }
 
@@ -12,7 +12,6 @@ div {
 
 div::after {
     content:"";
-    background-image:url(IMG_4760.jpg);
     opacity:0.2;
     position:absolute;
     top:0;
@@ -25,52 +24,78 @@ div::after {
     background-size:100%;
 }
 
+h1 { 
+    font-family: Copperplate; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: bold; 
+    line-height: 26.399999618530273px;
+    color:darkred;
+} 
+h2 { 
+    font-family: Copperplate; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: bold; 
+    line-height: 20.399999618530273px;
+    color:darkred;
+} 
+h3 { 
+    font-family: Copperplate; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: bold; 
+    line-height: 15.399999618530273px; 
+    color:darkred;
+} 
+p { 
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 14px; font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px;
+    color:orangered; 
+} 
+blockquote { 
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; } 
+pre { 
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.571430206298828px; }
+
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 13px; 
     padding: 40px;
     border-radius: 15px;
-    border-color:paleturquoise;
+    color:orangered; 
     border-style:solid;
 }
 
-h1 {
-    color:midnightblue;
-    text-align: center;
-    background-color:turquoise;
-    text-shadow:2px 2px white;
-}
-
-h2 {
-    color:midnightblue;
-    text-align: center;
-    background-color:turquoise;
-    text-shadow:2px 2px white;
-}
-
-h3 {
-    color:midnightblue;
-    text-align: center;
-    background-color:turquoise;
-    text-shadow:2px 2px white;
-}
 
 .button {
-    color:palegreen;
+    color:rgb(104, 0, 0);
     padding:40px;
-    background-color:orchid;
+    background-color:rgb(255, 210, 210);
 
 }
 
 p {
-    color:midnightblue;
-    text-shadow:1px 1px white;
+    color:indianred;
 }
 
 #nav {
 	list-style-type: none;
-	background-color:rgb(5, 134, 185);
+	background-color:beige;
 	padding: 8px;
-	border-color:teal;
+	border-color:darkred;
 	border: 2px solid white; 
 	text-align: center;
     display:flex;
@@ -89,14 +114,14 @@ p {
 }
 
 #nav ul {
-	color:aliceblue;
+	color:rgb(93, 27, 27);
 	display: flex;
     justify-content: space-between;
 }
 
 #nav a:hover {
 	text-decoration:overline;
-	background-color:#FFF4F5;
+	background-color:#da8d93;
 }
 
 #nav li {
@@ -106,7 +131,7 @@ p {
 }
 
 img {
-    border-color:palegreen;
+    border-color:rgb(148, 101, 104);
     border-width:10px;
     border-style:solid;
     margin-left:auto;
@@ -143,13 +168,13 @@ a {
   
   a:hover {
       text-decoration: underline;
-      color: #DFEE5A;
+      color: #ee785a;
       font-weight:bold;
       
   }
   
   a:visited {
-      color:#0D0067;
+      color:#9d5d49;
   }
   
   a:active {
@@ -157,12 +182,12 @@ a {
   }
 
 ul {
-    color:midnightblue;
+    color:rgb(105, 0, 0);
     list-style-type: square;
 }
 
 ol {
-    color:midnightblue;
+    color:rgb(105, 0, 0);
 }
 
 .Subscribe {
@@ -176,12 +201,12 @@ input[type="text"], input[type="password"], input[type="email"]{
     padding: 10px;
     display: inline-block;
     border:white 10px;
-    background:lightblue;
+    background:rgb(240, 184, 184);
     margin: 5px;
 }
 
 input[type="text"]:focus, input[type="password"]:focus{
-    background-color: plum;
+    background-color: rgb(255, 102, 102);
 }
 
 input[type="text"], select {
@@ -240,7 +265,7 @@ div.Sub {
 */
 
 .Size {
-    background-color: paleturquoise;
+    background-color: rgb(198, 99, 99);
     padding: 20px;
     color:black;
     display:block;
@@ -250,13 +275,13 @@ div.Sub {
 
 .Size-content {
     position:absolute;
-    background-color:lightblue;
+    background-color:rgb(198, 99, 99);
     padding: 10px;
     display:block;
 }
 
 .Material {
-    background-color: paleturquoise;
+    background-color: rgb(198, 99, 99);
     padding: 10px;
     color:black;
     display:block;
@@ -264,6 +289,6 @@ div.Sub {
 
 .Material-content {
     position:absolute;
-    background-color:lightblue;
+    background-color:rgb(198, 99, 99);
     padding: 10px;
 }
