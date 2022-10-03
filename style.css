@@ -93,10 +93,10 @@ p {
 
 #nav {
 	list-style-type: none;
-	background-color:beige;
+	background-color:rgb(244, 31, 31);
 	padding: 8px;
 	border-color:darkred;
-	border: 2px solid white; 
+	border: 2px solid rgb(109, 0, 0); 
 	text-align: center;
     display:flex;
     flex-flow: row nowrap;
@@ -126,7 +126,9 @@ p {
 
 #nav li {
 	display: inline-block;
+    background-color: rgb(255, 164, 164);
     padding: 10px;
+    color:rgb(244, 31, 31);
 	
 }
 
